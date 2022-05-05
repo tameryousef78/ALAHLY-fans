@@ -1,0 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.navbar {
+    display: block;
+
+}
+.FormLogoAndHeads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.AhlyFansHead {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    margin-right: 25px;
+}
+.NavBarLinks {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+
+
+
