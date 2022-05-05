@@ -6,7 +6,7 @@
 
 .navbar {
     display: block;
-
+    background-image: linear-gradient(to bottom right, red, rgb(0, 0, 0));
 }
 .FormLogoAndHeads {
     display: flex;
