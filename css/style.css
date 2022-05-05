@@ -37,8 +37,13 @@
     position: relative;
     float: right;
     margin-right: 2%;
+    /* margin-bottom: 10%; */
     z-index: 1;
     width: 96%;
+  }
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.56);
+    
   }
   .GreatestClubImg {
     position: absolute;
