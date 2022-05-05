@@ -4,6 +4,7 @@
 }
 
 
+/* NAvBar */
 .navbar {
     display: block;
     background-image: linear-gradient(to bottom right, red, rgb(0, 0, 0));
@@ -24,6 +25,23 @@
     text-align: center;
     margin-left: 40px;
     margin-top: 10px;
+}
+
+
+
+
+/* Section */
+
+
+.MainCarousel {
+    display: flex;
+    position: relative;
+    z-index: 1;    
+}
+.GreatestClubImg {
+    display: flex;
+    position: absolute;
+    z-index: 2;
 }
 
 
