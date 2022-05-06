@@ -2,7 +2,9 @@
     margin: 0%;
     padding: 0%;
 }
-
+.Bodyyy {
+    background-color: rgb(0, 0, 0);
+}
 
 /* NAvBar */
 .navbar {
@@ -31,7 +33,7 @@
 
 
 
-/* Section */
+/* Carousel */
 .carousel-inner img {
     display: flex;
     position: relative;
@@ -47,8 +49,12 @@
     align-items: center;
     margin: auto;
     padding: 1%;
-    background-color: rgba(0, 0, 0, 0.677);
+    background-color: rgba(0, 0, 0, 0.784);
+    width: 35%;
   }
+
+ 
+
 
 
 
