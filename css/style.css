@@ -35,10 +35,12 @@
 .carousel-inner img {
     display: flex;
     position: relative;
-    float: right;
-    margin-right: 2%;
+    align-items: center;
+    margin: auto;
+    /* float: right; */
+    /* margin-right: 2%; */
     z-index: 1;
-    width: 96%;
+    width: 90%;
   }
   .carousel-caption {
     position: absolute;
