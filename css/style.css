@@ -54,9 +54,23 @@
   }
 
  
+/* Small cards */
+.card-body {
+    text-align: right;
+}
+.SmallCardImg {
+    height: 300px;
+}
 
 
 
+/* Big Cards */
+.card-body1 {
+    text-align: center;
+}
+.SmallCardImg1 {
+    height: 400px;
+}
 
 
 
