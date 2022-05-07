@@ -55,6 +55,9 @@
 
  
   /* Small cards */
+  .SmallCardssss {
+    box-shadow: 5px 5px 10px red;
+  }
 .card-body {
     text-align: right;
 }
@@ -65,6 +68,9 @@
 
 
 /* Big Cards */
+.BigCards {
+    box-shadow: 5px 5px 10px red;
+}
 .card-body1 {
     text-align: center;
 }
