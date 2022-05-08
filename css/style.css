@@ -53,6 +53,29 @@
     width: 35%;
   }
 
+
+
+/* Head */
+  .Section_Head {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.Section_title {
+    text-align: center;
+    font-family: lato;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 0, 0), rgb(0, 0, 0));
+    padding: 20px;
+    border-radius: 10px;
+}
+.Section_title:hover {
+    color: #000000;
+}
+
+
+
+
  
   /* Small cards */
 .SmallCardssss {
