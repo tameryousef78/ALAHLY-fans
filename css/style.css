@@ -55,15 +55,17 @@
 
  
   /* Small cards */
-  .SmallCardssss {
+.SmallCardssss {
     box-shadow: 5px 5px 10px red;
   }
-.card-body {
-    text-align: right;
-}
 .SmallCardImg {
     height: 300px;
 }
+.card-body {
+    text-align: right;
+}
+
+
 
 
 
