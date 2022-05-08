@@ -60,6 +60,7 @@
   }
 .card-body {
     text-align: right;
+    height: 165px;
 }
 .SmallCardImg {
     height: 300px;
