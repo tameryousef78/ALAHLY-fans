@@ -58,15 +58,20 @@
                 aria-haspopup="true" aria-expanded="false">
                 الألعاب الأخرى</a>
               <div class="DropDownMenu dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="https://www.alahlyegypt.com/ar/other-sports/5/news" target="_blank">كرة اليد</a>
-                <a class="dropdown-item" href="https://www.alahlyegypt.com/ar/other-sports/1" target="_blank">كرة السلة</a>
-                <a class="dropdown-item" href="https://www.alahlyegypt.com/ar/other-sports/4" target="_blank">كرة الطائرة</a>
+                <a class="dropdown-item" href="https://www.alahlyegypt.com/ar/other-sports/5/news" target="_blank">كرة
+                  اليد</a>
+                <a class="dropdown-item" href="https://www.alahlyegypt.com/ar/other-sports/1" target="_blank">كرة
+                  السلة</a>
+                <a class="dropdown-item" href="https://www.alahlyegypt.com/ar/other-sports/4" target="_blank">كرة
+                  الطائرة</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="https://www.alahlyegypt.com/ar/other-sports/12" target="_blank">ألعاب الماء</a>
+                <a class="dropdown-item" href="https://www.alahlyegypt.com/ar/other-sports/12" target="_blank">ألعاب
+                  الماء</a>
               </div>
             </li>
             <li class="NavBarLinks nav-item">
-              <a class="nav-link" href="https://www.kooora.com/?region=-6&team=131" target="_blank">المباريات القادمة</a>
+              <a class="nav-link" href="https://www.kooora.com/?region=-6&team=131" target="_blank">المباريات
+                القادمة</a>
             </li>
             <li class="NavBarLinks nav-item">
               <a class="nav-link" href="#">مجلة الأهلي</a>
@@ -158,16 +163,12 @@
 
 
 
-<!-- Head -->
-<div class="container">
-  <div class="Section_Head">
-    <h1 class="Section_title">الأخبار</h1>
+  <!-- small cards Title -->
+  <div class="container">
+    <div class="Section_Head">
+      <h1 class="Section_title">الأخبار</h1>
+    </div>
   </div>
-</div>
-
-
-
-
 
   <!-- Small Cards -->
   <div class="container">
@@ -268,6 +269,14 @@
 
 
 
+
+  <!-- big cards Title -->
+  <div class="container">
+    <div class="Section_Head">
+      <h1 class="Section_title">القسم الوثائقي</h1>
+    </div>
+  </div>
+
   <!-- Big Cards -->
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
@@ -332,6 +341,84 @@
         <!-- Card -->
       </div>
     </div>
+  </div>
+  <br><br><br>
+
+
+
+
+
+  <!-- form validation Title -->
+  <div class="container">
+    <div class="Section_Head">
+      <h1 class="Section_title">للتواصل معنا</h1>
+    </div>
+  </div>
+
+  <!-- form validation -->
+  <div class="container">
+    <form class="needs-validation" novalidate>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom01">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Please provide a valid Name.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom02">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Please provide a valid Name.
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom03">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom04">State</label>
+          <select class="custom-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom05">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
   </div>
   <br><br><br>
 
