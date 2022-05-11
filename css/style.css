@@ -106,6 +106,9 @@
 
 
 /* Validation Form */
+.FormValidation {
+    text-align: right;
+}
 .FormLabel {
     color: white;
 }
