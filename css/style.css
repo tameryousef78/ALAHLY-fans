@@ -12,6 +12,11 @@
     background-image: linear-gradient(to bottom right, red, rgb(0, 0, 0));
     margin-bottom: 2%;
 }
+.Ahly_Eagle_Nav {
+    width: 15%;
+    align-items: center;
+    margin: auto;
+}
 .FormLogoAndHeads {
     display: flex;
     justify-content: center;
