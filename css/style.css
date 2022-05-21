@@ -17,11 +17,19 @@
     align-items: center;
     /* margin: auto; */
 }
-.Ahly_saleh_img {
+.saleh_img {
     width: 35%;
+    display: block;
+    margin: auto;
 }
-.Ahly_saleh_title1 {
-    color: white;
+.Saleh_title {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.saleh_title11111 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 .FormLogoAndHeads {
     display: flex;
