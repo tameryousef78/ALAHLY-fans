@@ -1,0 +1,50 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.Bodyyy {
+    background-color: rgb(0, 0, 0);
+}
+
+/* NAvBar */
+.navbar {
+    display: block;
+    background-image: linear-gradient(to bottom right, red, rgb(0, 0, 0));
+    margin-bottom: 2%;
+}
+.Saleh_selim {
+    display: block;
+    align-items: center;
+    /* margin: auto; */
+}
+.saleh_img {
+    width: 35%;
+    display: block;
+    margin: auto;
+}
+.Saleh_title {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.saleh_title11111 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.FormLogoAndHeads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.AhlyFansHead {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    margin-right: 25px;
+}
+.NavBarLinks {
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+}
