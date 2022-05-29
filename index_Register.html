@@ -105,7 +105,9 @@
               <a class="nav-link" href="https://www.alahlyegypt.com/ar/football/news" target="_blank">الأخبار</a>
             </li>
             <li class="NavBarLinks nav-item">
-              <a class="nav-link" href="index.html">الرئيسية<span class="sr-only">(current)</span></a>
+              <!-- <a class="nav-link" href="index.html">الرئيسية<span class="sr-only">(current)</span></a> -->
+              <a href="index.html"><i class="nav-link fas fa-home"></i></a> 
+
             </li>
           </ul>
         </div>
@@ -116,11 +118,59 @@
 
 
 
+  <!-- picture of AlAhly Chairman -->
    <img class="img_History2" src="img/history2.jpg" alt="">
-
-
-
 <br><br><br>
+
+
+
+
+  <!-- Register Form -->
+<div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <img class="LoginAhlyLogo" src="img/Alahly_Logo .png" alt="">
+          <br><br>
+        <h4 class="modal-title w-100 font-weight-bold">تسجيل عضو جديد</h4>
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="orangeForm-name" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="orangeForm-name">الاسم</label>
+        </div>
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="orangeForm-email" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="orangeForm-email">البريد الالكتروني</label>
+        </div>
+
+        <div class="md-form mb-4">
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="password" id="orangeForm-pass" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="orangeForm-pass">كلمة السر</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <a href="index.html"><button class="btn btn-danger">التسجيل</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="text-center">
+  <a href="" class="btn btn-white btn-rounded mb-4 font-weight-bold" data-toggle="modal" data-target="#modalRegisterForm">اضغط للتسجيل كمستخدم جديد</a>
+</div>
+<br><br><br>
+
+
+
+
   <!-- Footer -->
   <footer class="Footerr text-center text-white">
     <!-- Grid container -->
@@ -160,8 +210,8 @@
       <section class="">
         <!--Grid row-->
         <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <!--Grid column-->
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
 
             <ul class="list-unstyled mb-0">
@@ -182,49 +232,7 @@
           <!--Grid column-->
 
           <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
 
             <ul class="list-unstyled mb-0">
@@ -258,8 +266,6 @@
     </div>
     <!-- Copyright -->
   </footer>
-  <!-- Footer -->
-
 
 
 
