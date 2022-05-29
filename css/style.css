@@ -172,6 +172,7 @@
 /* Api Page */
 .Api_Examples {
     display: flex;
+    width: 100%;
     align-items: center;
     margin: auto;
 }
